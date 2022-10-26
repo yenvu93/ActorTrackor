@@ -6,15 +6,15 @@ Installation at [Install.md](https://github.com/yenvu93/ActorTrackor/blob/main/I
 
 
 -----------------------------------------------------------------------------------------
-Trainning Person Dectection
+Training Person Detection
 
 + Running convert MovieNet Dataset to COCO dataset
 
 python3 ./tools/movienet2coco.py -i ./data/ -o ./data/actorTracker/annotations --version 2019
 
 + Running train model
-
-copy person_detection_model stuffs to approproate MMdetection folder (Checking https://mmdetection.readthedocs.io/en/latest/ )
+a
+copy person_detection_model stuff to appropriate MMdetection folder (Checking https://mmdetection.readthedocs.io/en/latest/ )
 
 Run:
 
@@ -24,7 +24,7 @@ python3 tools/train.py ./person_detection_model/person_detection_cascade_rcnn_r5
 
 -------------------------------------------------------------------------------------------
 
-Run Actor tracking in video:
+Run Actor tracking in the video:
 
 cd actortracker/demos
 
